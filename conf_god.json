@@ -1,0 +1,26 @@
+{
+  "IpfsConf": {
+    "BootNodes": [],
+    "Profile": "server",
+    "IpfsPort": 60800
+  },
+  "RPC": {
+    "HTTPHost": "0.0.0.0",
+    "HTTPPort": 8100
+  },
+  "Consensus": {
+    "Automine": true
+  },
+  "GenesisConf": {
+    "GodAddress": "0x0000838ae9579a309e565Bb6CF7e4d68fe9d56e2",
+    "FirstCeremonyTime": 1987108800
+  },
+  "Validation": {
+    "ValidationInterval": 18000000000000,
+    "FlipLotteryDuration": 60000000000,
+    "ShortSessionDuration": 120000000000,
+    "LongSessionDuration": 120000000000,
+    "AfterLongSessionDuration": 30000000000
+  },
+  "Network": 3
+}

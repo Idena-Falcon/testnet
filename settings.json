@@ -1,0 +1,14 @@
+{
+  "url": "http://localhost:8101",
+  "internalPort": 9119,
+  "tcpPort": 50505,
+  "ipfsPort": 50506,
+  "uiVersion": "0.15.5",
+  "useExternalNode": true,
+  "runInternalNode": false,
+  "internalApiKey": "6om700ehyh5oykwb0secis84fd6gbh7vr",
+  "externalApiKey": "123",
+  "lng": "en",
+  "initialized": true,
+  "zoomLevel": 0
+}

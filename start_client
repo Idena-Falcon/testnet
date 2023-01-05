@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIR="$@"
+echo Got DIR=\"$DIR\"
+
+if [ "$DIR" != '' ]; then
+    DIR=$(pwd)/$DIR/client_config
+    echo Launching a client with config in "$DIR"
+    XDG_CONFIG_HOME=$DIR idena-desktop
+else
+    echo Launching a default client
+    idena-desktop
+fi
+
+echo 'Finished'
